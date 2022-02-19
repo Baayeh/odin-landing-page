@@ -1,0 +1,181 @@
+html, body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*************************
+    HEADER
+*************************/
+section.header {
+    padding-top: 20px;
+    background-color: #1F2937;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+div.header-links a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+section.header > nav > div > a:nth-child(2) {
+    margin: 0 15px;
+}
+
+section.hero-texts {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 100px;
+}
+
+div.main-text {
+    padding-top: 60px;
+}
+
+h2.hero-main-text {
+    font-size: 48px; 
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+section.hero-texts div p.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    border: none;
+    color: #1F2937;
+    cursor: pointer;
+}
+
+div.hero-img img {
+    width: 500px;
+    height: 300px;
+}
+
+/**********************
+    ABOUT US
+**********************/
+section.about-us {
+    padding: 30px 0;
+}
+
+h3.about-us-header {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section.about-us-img {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+div.profile-pic {
+    width: 250px;
+}
+
+div.profile-pic img {
+    width: 250px;
+    height: 250px;
+    border: 4px solid #3882F6;
+    border-radius: 50%;
+}
+
+div.profile-pic p {
+    text-align: center;
+    color: #1F2937;
+}
+
+/***************************
+        QUOTE
+***************************/
+section.quote {
+    background-color: #E5E7EB;
+    padding: 90px 0;
+}
+
+section.quote div {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+section.quote > p {
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 45%;
+}
+
+/**************
+    REGISTER
+**************/
+section.register {
+    background-color: #3882F6;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 50px auto;
+    padding: 45px 80px;
+    border-radius: 10px;
+}
+
+button.register-btn {
+    background-color: #3882F6;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button.register-btn:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #1F2937;
+    cursor: pointer;
+}
+
+/**************
+    FOOTER
+**************/
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 50px;
+    color: #F9FAF8;
+}
